@@ -30,7 +30,7 @@ export default function Footer() {
                         </select>
                     </div>
                     <div>
-                        &copy; 2024 Instagrm from Meta
+                        &copy; This is BCIT Assignment. Created by Timothy Lee
                     </div>
                 </div>
             </footer>
