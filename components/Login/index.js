@@ -16,7 +16,7 @@ export default function Login() {
                 <div>
                     <form action="" className={styles.login_form}>
                         <input id='login' name="login" placeholder="Phone number, username, or email"></input>
-                        <input id='password' name="password" placeholder="Password"></input>
+                        <input type="password" id='password' name="password" placeholder="Password"></input>
                         <button className={styles.loginButton}>Log in</button>
                     </form>
                 </div>
