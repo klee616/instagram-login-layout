@@ -8,13 +8,13 @@
 
 }
 
-.main_container{
+.main_container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width:365px;
-  height:580px;
+  width: 365px;
+  height: 580px;
 
   gap: 10px;
   padding: 30px 0px;

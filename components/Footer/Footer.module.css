@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 10vh;
     font-size: 12px;
-    color: #606770;
+    color: var(--fornt-color1);
 }
 
 .footer_container div {
@@ -16,7 +16,7 @@
     flex-shrink: 0;
     flex-grow: 0;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     margin: 2px 4px;
 }
 
@@ -27,19 +27,20 @@
 
 .footer_container select {
     border: none;
-    color: #606770;
+    color: var(--fornt-color1);
+    ;
     margin-right: 20px;
 }
 
 
 @media (min-width:600px) and (max-width: 960px) {
-    
-    .footer_container>div{
+
+    .footer_container>div {
         margin: 0 5%;
     }
 }
 
-@media (max-width:450px){
+@media (max-width:450px) {
     .footer_container {
         height: 20vh;
     }

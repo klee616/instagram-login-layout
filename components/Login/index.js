@@ -26,16 +26,16 @@ export default function Login() {
                     <div className={styles.line}><hr></hr></div>
                 </div>
                 <div className={styles.facebook}>
-                <Image
+                    <Image
                         src="/images/facebook.png"
                         width={20}
                         height={20}
                         alt='Instagram Logo'></Image><Link href="/">Log in with Facebook</Link>
                 </div>
                 <div className={styles.forgot_password}>
-<Link href="/">
-    Forgot password
-</Link>
+                    <Link href="/">
+                        Forgot password
+                    </Link>
                 </div>
             </div>
         </>

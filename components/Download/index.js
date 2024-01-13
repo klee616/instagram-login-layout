@@ -1,10 +1,10 @@
 import styles from './Download.module.css'
 import Image from 'next/image';
 
-export default function Download(){
+export default function Download() {
     return (
         <>
-            <div className={styles.instagram_download}>
+            <div className={styles.instagram_download}>Í
                 <div>Get the app.</div>
                 <div className={styles.download_image}>
                     <div>

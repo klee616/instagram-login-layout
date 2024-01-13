@@ -1,13 +1,12 @@
 :root {
   --max-width: 1100px;
-  --border-radius: 12px;
   --border-color: #dbdbdb;
   --primary-color: #fff;
-  --second-color: #fff;
-  --primary-front-color: #000;
-  --second-front-color: #d5d5d5;
-
-
+  --secondary-color: #65b6fa;
+  --font-color1: #606770;
+  --font-color2: #fff;
+  --font-color3: #0196f6;
+  --font-color4: #0196f6;
 }
 
 * {

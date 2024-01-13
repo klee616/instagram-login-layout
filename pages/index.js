@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Login from '@/components/Login/index'
@@ -21,9 +20,9 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.main_container}>
-        <Login></Login>
-        <Register></Register>
-        <Download></Download>
+          <Login></Login>
+          <Register></Register>
+          <Download></Download>
         </div>
       </main>
       <Footer></Footer>

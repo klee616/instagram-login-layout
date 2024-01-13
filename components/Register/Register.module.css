@@ -1,5 +1,5 @@
-.instagram_register{
-    width:360px;
+.instagram_register {
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,13 +8,13 @@
     border: 1px solid var(--border-color);
     text-align: center;
     font-size: 14px;
-    display:inline; 
-    padding: 20px ;
+    display: inline;
+    padding: 20px;
 }
 
-.register_link{
-    color: #0196f6;
-    display:inline; 
+.register_link {
+    color: var(--font-color4);
+    display: inline;
 
     font-weight: bold;
 
@@ -22,8 +22,8 @@
 
 
 
-@media (max-width:450px){
+@media (max-width:450px) {
     .instagram_register {
-       border: none;
+        border: none;
     }
 }
